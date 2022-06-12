@@ -1,52 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RD Diagnostico por Imagenes</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
+
+
+
 <body>
-    <header>
-        <img src="/imagenes/logotipo.jpg" height="150" width="150" alt="logotipo">
+    <header class="header">
+
+        <div class="header__logo">
+            <img src="imagenes/logo-rd-letras-blancas.png" height="80" width="150" alt="logotipo">
+        </div>
+
+        <p class="header__texto">Diagnóstico por Imágenes</p>
+
         <nav>
-            <ul>
-                <li><a href="index.html">inicio</a></li>
-                <li><a href="pagina2.html">servicio</a></li>
-                <li><a href="pagina3.html">contacto</a></li>
+            <ul class="nav__lista">
+                <li class="nav__item"><a class="nav__enlace__inicio" href="index.html">Inicio</a></li>
+                <li class="nav__item"><a class="nav__enlace" href="servicios.html">Servicios</a></li>
+                <li class="nav__item"><a class="nav__enlace" href="contacto.html">Contacto</a></li>
             </ul>
 
         </nav>
 
-           </header>
+    </header>
+
+
+
+
     <main>
-<!-- aca va el contenido --> 
-        <section>
-            <h1>Nosotros</h1>
-            <p>RD es una organización diseñada para brindarle una excelente calidad
-                 de atención, y hacia allí volcamos todos nuestros esfuerzos.Somos una empresa joven que 
-                 gracias al trabajo en conjunto de nuestro grupo humano trabajamos con la convicción de ofrecer un servicio
-                   integral de salud y calidad en la atención a cada paciente; acompañado de una fuerte y 
-                   constante inversión en la actualización de instalaciones, equipamientos y recurso humano.</p>
-            <img src="/imagenes/pexels-mart-production-7088497.jpg" height="300" width="300" alt="imagen1">                   
+        <!-- aca va el contenido -->
+        <section class="seccion1">
+            <div class="seccion1__izquierda">
+
+
+                <h1 class="seccion1__titulo">Turnos Online por Whatsapp</h1>
+                <p class="seccion1__subtitulo">Solicita tu turno online, desde la comodidad de tu hogar
+                </p>
+                <a class="seccion1__boton" href="contacto.html">solicita tu turno aca</a>
+            </div>
         </section>
 
-        <section>
-            <h2>Turnos online por whatsapp</h2>
-            <p>Solicita tu turno online, desde la comodidad de tu hogar
-            </p>
-            <a href="">solicita tu turno aca</a>
-            <img src="/imagenes/imagencelular.jpg" height="300" width="300" alt="imagenturno">
+
+        <section class="seccion2">
+
+            <div class="seccion2__servicio">
+                <img class="seccion2__imagen" src="imagenes/logo-tomografia.png" width="150" height="150"
+                    alt="tomografia computada">
+                <h1 class="seccion2__titulo">Tomografía Computada </h1>
+                <p>Contamos con tecnología de última generación que nos permite obtener diagnósticos de calidad y poco
+                    invasivos.</p>
+            </div>
+
+            <div class="seccion2__servicio">
+                <img class="seccion2__imagen" src="imagenes/resonancia-magnetica.png" width="150" height="150"
+                    alt="Resonancia Magnética">
+                <h1 class="seccion2__titulo">Resonancia Magnética </h1>
+                <p>La resonancia magnética (RM) es un examen no invasivo que permite a los profesionales diagnosticar y
+                    tratar enfermedades.</p>
+            </div>
+
+            <div class="seccion2__servicio">
+                <img class="seccion2__imagen" src="imagenes/camara-gamma.png" width="150" height="150"
+                    alt="Cámara Gamma">
+                <h1 class="seccion2__titulo">Cámara Gamma </h1>
+                <p>Se realizan todo tipo de estudios que requieran material radiactivo y adquisición de Camaragama.</p>
+            </div>
+
+            <div class="seccion2__servicio">
+                <img class="seccion2__imagen" src="imagenes/servicio-ecografia.png" width="150" height="150"
+                    alt="Servicio de Ecografía">
+                <h1 class="seccion2__titulo">Servicio de Ecografía </h1>
+                <p>Contamos con equipos de última generación y profesionales especializados para realizar estudios
+                    ecográficos, ecocardiográficos y estudios doppler color.</p>
+            </div>
         </section>
-           </main>
-    
-    <footer>
-        <img src="/imagenes/logotipo.jpg" width="75" height="75" alt="logotipo footer">
-        <ul>
-            <li><a href="">link1</a></li>
-            <li><a href="">link2</a></li>
-        </ul>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis porro nam aspernatur dolorem incidunt? Vel, nostrum officiis accusantium, natus quas, rerum ad nesciunt corrupti adipisci illo quis molestiae debitis saepe?</p>
+
+
+
+
+        <section class="seccion__nosotros">
+            <div class="seccion__nosotros__derecha">
+                <h1 class="seccion__nosotros__titulo">Nosotros</h1>
+
+                <p class="seccion__nosotros__texto">RD es una organización diseñada para brindarle una excelente calidad
+                    de atención, y hacia allí volcamos todos nuestros esfuerzos.</p>
+
+                <p class="seccion__nosotros__texto">
+                    Somos una empresa joven que
+                    gracias al trabajo en conjunto de nuestro grupo humano trabajamos con la convicción de ofrecer un
+                    servicio integral de salud y calidad en la atención a cada paciente.</p>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <img class="footer__logotipo" src="imagenes/logo-rd-letras-blancas.png" width="150" height="80"
+            alt="logotipo footer">
+        <p class="footer__texto">RD Diagnóstico | Copyright 2022 | Todos los derechos reservados | Bahia Blanca | </p>
+
+        <div class="redes">
+            <a href="https://www.whatsapp.com/"> <img src="imagenes/logo.whatsapp.png" width="40" height="40"
+                    alt="logo Whatsapp"></a>
+            <a href="https://www.instagram.com/"> <img src="imagenes/logo-instagram.png" width="40" height="40"
+                    alt="logo instagram"></a>
+            <a href="https://www.facebook.com/"> <img src="imagenes/logo-facebook.png" width="40" height="40"
+                    alt="facebook"></a>
+
+        </div>
+
+
     </footer>
 </body>
+
 </html>
